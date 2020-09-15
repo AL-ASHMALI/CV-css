@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Dancing Script', cursive;
+  margin: 50px auto 0 auto;
+  color: #66BFBF
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Amatic SC', cursive;
+  margin: 0;
+  font-weight: bolder;
+  color: #66BFBF
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Grandstander', cursive;
+  margin: 0;
+  color: #11999E;
+  font-weight: bolder;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+  color: #40514E;
+  font-weight: bolder;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #6b717e;
+  border-width: 6px;
+  width: 5%;
+}
+
+/*------------------------------------------------------------------*/
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.main-p {
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 2;
+  color: #66BFBF;
+}
+
+.cloud-bottom {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.cloud-top {
+  position: absolute;
+  top: 40px;
+  right: 250px;
+}
+
+/*------------------------------------------------------------------*/
+.middle-container {
+  position: relative;
+}
+
+.skills {
+  margin: 50px auto 50px auto;
+}
+
+.profile {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  line-height: 2;
+}
+
+.my-picture {
+  padding-top: 10px;
+  border-radius: 100%;
+  width: 25%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.processor {
+  padding-top: 10px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Football {
+  padding-top: 10px;
+  width: 22%;
+  float: left;
+  padding: 0;
+}
+
+.Web-dev {
+  padding-top: 10px;
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px
+}
+
+.contact-me {
+  margin: 50px auto 50px auto;
+  line-height: 2rem;
+}
+
+.contact-message {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.contact-message2 {
+  margin-bottom: 60px;
+}
+
+/*------------------------------------------------------------------*/
+.bottom-container {
+  background-color: #66bfbf;
+  line-height: 4;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.button {
+  background-color: #66bfbf;
+}
+
+a {
+  font-family: 'Grandstander', cursive;
+  text-decoration: none;
+  margin: 10px 20px;
+  color: #11999E;
+}
+a:hover{
+  color: #eaf6f6;
+}
+
+.copy-right {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999e);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999e);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #11CDD 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
